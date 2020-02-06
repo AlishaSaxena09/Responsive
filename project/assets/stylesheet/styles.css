@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* container */
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.small-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+/* flex */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* header */
+.logo{
+    text-align: left;
+}
+.img{
+    width: 150px;
+    height: 50px;
+}
+.header{
+    padding-top: 32px;
+    background-color: #2C3E50;
+}
+.header li{
+    margin-left: 32px;
+}
+.header a{
+    font-size: 32px;
+    color: grey;
+    text-decoration: none;
+}
+/* center */
+.center{
+    text-align: center;
+}
+/* hero section */
+.hero{
+    padding: 160px 0;
+    color: white;
+}
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 700;
+    word-spacing: 10px;
+}
+.hero p{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 10px;
+    padding-top: 32px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 1;
+}
+/* blue-background */
+.gradient{
+    background-image: linear-gradient(180deg, rgb(35, 61, 68), rgb(93, 192, 153));
+}
+
+/* primary-section */
+.primary{
+    padding: 128px 0;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.primary h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.primary img{
+    width: 30%;
+    margin-left: 28px;
+    margin-bottom: 28px;
+}
+
+/* third-section */
+.third{
+    padding: 128px 0;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.third h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    word-spacing: 10px;
+    color: white;
+    padding-bottom: 50px;
+}
+.third p {
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+    padding: 1rem;
+    line-height: 1.5;
+    max-width: 300px;
+    font-weight: 500;
+}
+.btn{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 15px 40px;
+    margin-top: 32px;
+}
+/* fourth-section */
+.fourth{
+    padding: 128px 0;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    align-items: flex-start;
+}
+.fourth h4{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    word-spacing: 10px;
+    color: black;
+    padding-bottom: 50px;
+}
+.form input{
+    text-align: center;
+    /* padding:10px 10px;
+    /* width: 100%; */
+    margin: 20px 0;
+    border-top: none;
+    font-size: 30px;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+.input{
+    width: 100% ;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form label{
+    align-items: left;
+    font-size: 30px;
+}
+/* map */
+.map{
+    padding: 128px 0;
+    background-color: grey;
+}
+/* table */
+.table{
+    padding: 128px 0;
+}
+.mini-table{
+    ;
+}
+.mini-table td{
+    /* padding-left:200px; */
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+.head-table{
+    font-size: 32px;
+    /* background-color: blue; */
+}
+.table h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px ;
+}
+/* last section */
+.last{
+    padding: 96px 0;
+    background-color: #2C3E50;
+    color: white;
+}
+.last h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.last p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 32px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.icons{
+    padding-top: 32px;
+    font-size: 20px;
+    text-align: center;
+}
+.icons i{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+/* footer */
+.footer{
+    background-color: #19242E;
+    padding: 56px 0;
+    text-align: center;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color:#1E2639;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(70, 88, 104);
+    color: rgb(243, 19, 131);
+}
+
+/* responsive */
+@media all and (min-width:320px) and (max-width: 760px){
+    .logo{
+        text-align: center;
+    }
+    .img{
+        width: 150px;
+        height: 50px;
+    }
+}
+@media all and (min-width:320px) and (max-width: 760px){
+    .primary img{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+}
